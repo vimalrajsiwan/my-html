@@ -275,3 +275,16 @@ input#subscribe-form{
     margin-right: 35px;
     margin-top: 12px;    */
 }
+
+.cursor1{
+    cursor: pointer;
+}
+.cursor2{
+    cursor: move;
+}
+.cursor3{
+    cursor: progress;
+}
+.cursor4{
+    cursor: wait;
+}
