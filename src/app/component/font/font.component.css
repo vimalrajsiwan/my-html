@@ -1,0 +1,72 @@
+.fontWeight{
+    font-weight: bold;
+}
+.font-weight-normal{
+    font-weight: normal;
+}
+.font-style-italic{
+    font-style: italic;
+}
+.font-style-normal{
+    font-style: normal;
+}
+.font-style-oblique{
+    font-style: oblique;
+}
+.font-style-uppercase{
+    text-transform: uppercase;
+}
+.font-style-lowercase{
+    text-transform: lowercase;
+}
+.font-style-capitalize{
+    text-transform: capitalize;
+}
+.font-text-underline{
+    text-decoration:underline;
+}
+.font-text-none{
+    text-decoration:none;
+}
+.font-text-line-through{
+    text-decoration:line-through;
+}
+.font-text-blink{
+    text-decoration:blink;
+}
+.line-height{
+    line-height: 2.4em;
+}
+.letter-spacing{
+    letter-spacing: 0.2em;
+}
+.word-spacing{
+    word-spacing: 0.5em;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-justify{
+    text-align: justify;
+}
+.text-align-start{
+    text-align: start;
+}
+.text-align-end{
+    text-align: end;
+}
+.text-vertical-align-top{
+    vertical-align: top;
+}
+.text-vertical-align-bottom{
+    vertical-align: bottom;
+}
+.text-vertical-align-baseline{
+    vertical-align: baseline;
+}

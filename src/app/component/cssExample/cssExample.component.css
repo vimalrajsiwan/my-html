@@ -1,0 +1,38 @@
+.wholePageCSS{
+    color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: greenyellow;
+    background-color: aliceblue;
+}
+
+#specialDiv{
+    font-size: 20px;
+    color: blueviolet;
+    text-align: right;
+}
+
+li>a{
+    color: brown;
+}
+p a{
+    color: chartreuse;
+}
+
+h1+p{
+    color: red;
+}
+
+h3~p{
+    color: chocolate;
+}
+
+*{
+    background-color: #87b387;
+}
+
+u.note{
+    color: blue;
+}
