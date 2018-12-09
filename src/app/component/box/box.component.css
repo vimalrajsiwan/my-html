@@ -288,3 +288,6 @@ input#subscribe-form{
 .cursor4{
     cursor: wait;
 }
+.cursor5{
+    cursor: pointer;
+}
