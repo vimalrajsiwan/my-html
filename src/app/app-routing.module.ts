@@ -7,15 +7,13 @@ import { CssExampleComponent } from './component/cssExample/cssExample.component
 import { ColorComponent } from './component/color/color.component';
 import { FontComponent } from './component/font/font.component';
 import { AuthGuard } from './service/guard/auth.guard';
-import { TableComponent } from './component/table/table.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'reactiveForm', component: ReactiveFormComponent },
-  { path: 'cssExample', component: CssExampleComponent },
-  { path: 'color', component: ColorComponent },
-  { path: 'font', component: FontComponent },
-  { path: 'table', component: TableComponent },
+  { path: 'reactiveForm', component: ReactiveFormComponent, canActivate:[AuthGuard] },
+  { path: 'cssExample', component: CssExampleComponent, canActivate:[AuthGuard] },
+  { path: 'color', component: ColorComponent, canActivate:[AuthGuard] },
+  { path: 'font', component: FontComponent,canActivate:[AuthGuard] },
   
   // { path: 'register',   component: RegisterComponent },
   // { path: 'employee/:id',canActivate: [AuthGuardGuard], component: EmployeeAccordionComponent },
