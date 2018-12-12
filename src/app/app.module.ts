@@ -16,6 +16,7 @@ import { AuthGuard } from './service/guard/auth.guard';
 import { DataModule } from './component/data/data.module';
 import { DataRoutingModule } from './component/data/data.routing';
 import { BoxModule } from './component/box/box.module';
+import { TableComponent } from './component/table/table.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BoxModule } from './component/box/box.module';
     ReactiveFormComponent,
     CssExampleComponent,
     ColorComponent,
-    FontComponent
+    FontComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
